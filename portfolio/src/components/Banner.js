@@ -44,12 +44,12 @@ export const Banner = () => {
         <section id="home" className="banner">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
-                        <span className="sub">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm Darren`}</h1>
-                        <h2><span className="wrap">{text}</span></h2>
+                    <Col xs={12} md={6} xl={7} className="mx-auto">
+                        <span className="tagline">Welcome to my Portfolio</span>
+                        <h1>{`Hello I am Darren Ho `}</h1>
+                        <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Deverloper", "Machine Learning" ]'><span className="wrap">{text}</span></span></h1>
                         <p>Computer Science student with passion in software development, web design, and machine learning.</p>
-                        {/* <button onClick={() => console.log('Contact me')} >Let's Connect<ArrowRightCircle size={25} /></button> */}
+                        <button onClick={() => console.log('Contact me')} >Let's Connect<ArrowRightCircle size={25} /></button>
                     </Col>
                 </Row>
             </Container>
