@@ -1,6 +1,6 @@
 {
-  "homepage": "http://darrenhjle.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "http://darrenhjle.github.io/personal-portfolio",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
