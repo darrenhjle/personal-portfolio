@@ -37,34 +37,43 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h1>Skills</h1>
-                            <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={1500} className="skill-slider">
+                            <h2>Skills</h2>
+                            <Carousel responsive={responsive} arrows={false} infinite={true} autoPlay={true} autoPlaySpeed={900} className="skill-slider">
                                 <div className="item">    
-                                    <img src={js} alt="JavaScript" />      
+                                    <img src={js} alt="JavaScript" />
+                                    <p>JavaScript</p>      
                                 </div>
                                 <div className="item">  
-                                    <img src={python} alt="Python" />      
+                                    <img src={python} alt="Python" />
+                                    <p>Python</p>   
                                 </div>
                                 <div className="item">
                                     <img src={tf} alt="TensorFlow" />
+                                    <p>TensorFlow</p>
                                 </div>
                                 <div className="item"> 
-                                    <img src={html} alt="HTML" />         
+                                    <img src={html} alt="HTML" />
+                                    <p>HTML</p>         
                                 </div>
                                 <div className="item">  
-                                    <img src={java} alt="Java" />        
+                                    <img src={java} alt="Java" />
+                                    <p>Java</p>        
                                 </div>
                                 <div className="item">
                                     <img src={laravel} alt="Laravel" />
+                                    <p>Laravel</p>
                                 </div>
                                 <div className="item">
                                     <img src={django} alt="Django" />
+                                    <p>Django</p>
                                 </div>
                                 <div className="item">
                                     <img src={react} alt="React" />
+                                    <p>React</p>
                                 </div>
                                 <div className="item">
                                     <img src={c} alt="C" />
+                                    <p>C</p>
                                 </div>
                             </Carousel>
                         </div>

@@ -1,35 +1,31 @@
 import { Col, Container, Row } from "react-bootstrap";
 
+
 export const Projects = () => {
   const projects = [
     {
       title: "LLM Webscraper",
       description: "Web Scraping tool that uses LLM to extract data from websites",
-      image: "path/to/llm-webscraper-image.jpg",
       url: "https://github.com/darrenhjle/LLM-Web-Scraper",
     },
     {
       title: "MRT Face Recognition Gantry",
       description: "An advanced MRT gantry system using facial recognition for seamless entry.",
-      image: "path/to/mrt-gantry-image.jpg",
       url: "https://github.com/darrenhjle/Cloud_MRT",
     },
     {
       title: "LMS Portal",
       description: "A learning management system for streamlined education and training.",
-      image: "path/to/lms-portal-image.jpg",
       url: "https://github.com/darrenhjle/CSC1106-Web-Programming-Group-Project",
     },
     {
       title: "CCTV Object Detection",
       description: "Collaborative project with Panasonic to detect objects in CCTV footage using machine learning.",
-      image: "path/to/cctv.jpg",
       url: "",
     },
     {
       title: "Asset Sentiment Analysis",
       description: "Simple project that uses NLP and web scraping to analyze sentiment of assets.",
-      image: "path/to/asset.jpg",
       url: "https://github.com/darrenhjle/Asset-Sentiment-Analysis",
     },
   ];
@@ -47,14 +43,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <Col key={index} md={4} className="mb-4">
               <div className="project-card">
-                {project.image && (
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="project-image"
-                  />
-                )}
-                <h3 className="project-title">{project.title}</h3>
+              <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
                 {project.url ? (
                   <a

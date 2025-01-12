@@ -46,9 +46,22 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7} className="mx-auto">
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hello I am Darren Ho `}</h1>
+                        <h1>{`Hello I am Darren `}</h1>
                         <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Deverloper", "Machine Learning" ]'><span className="wrap">{text}</span></span></h1>
-                        <p>Computer Science student with passion in software development, web design, and machine learning.</p>
+                        <p>
+                            I am currently pursuing a Bachelor's with Honors in Computer Science at the Singapore Institute of Technology, 
+                            as part of a joint degree program with the University of Glasgow. My passion for technology and problem-solving 
+                            drives me to explore innovative solutions in various fields such as machine learning, blockchain, and software engineering.
+                        </p>
+
+                        <p>
+                            I enjoy tackling complex challenges and continuously improving my skills through hands-on projects, research, and collaboration. 
+                            As a detail-oriented and adaptable individual, I strive to create efficient and impactful technologies that can contribute to a better future.
+                        </p>
+
+                        <p>
+                            This portfolio showcases some of my work, highlighting my dedication to learning and growing as a computer scientist.
+                        </p>
                         <button onClick={() => console.log('Contact me')} >Let's Connect<ArrowRightCircle size={25} /></button>
                     </Col>
                 </Row>
