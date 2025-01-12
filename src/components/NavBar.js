@@ -28,6 +28,10 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const handleContactMeClick = () => {
+    window.location.href = "mailto:darrenhjle@gmail.com";
+  }
+
   return (
   
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -49,7 +53,7 @@ export const NavBar = () => {
                 <a href="https://github.com/darrenhjle" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
                 <a href="http://www.instagram.com/d.hjle" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
               </div> 
-            <button className="vvd"><span>Contact me</span></button>
+            <button className="vvd" onClick={ handleContactMeClick }><span>Contact me</span></button>
             </span>
           </Navbar.Collapse>
         </Container>

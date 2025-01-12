@@ -1,4 +1,3 @@
-import { clear } from "@testing-library/user-event/dist/cjs/utility/clear.js";
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
@@ -14,10 +13,10 @@ export const Banner = () => {
     useEffect(() => {
         let ticker = setInterval(() => {
             tick();
-        }, delta)
+        }, delta);
 
-        return () => {clearInterval(ticker)};
-    }, [text])
+        return () => { clearInterval(ticker); };
+    }, [text]);
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -38,7 +37,11 @@ export const Banner = () => {
             setLoopNum(loopNum + 1);
             setDelta(500);
         }
-    }
+    };
+
+    const handleContactClick = () => {
+        window.location.href = "mailto:darrenhjle@gmail.com";
+    };
 
     return (
         <section id="home" className="banner">
@@ -47,7 +50,11 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7} className="mx-auto">
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hello I am Darren `}</h1>
-                        <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Deverloper", "Machine Learning" ]'><span className="wrap">{text}</span></span></h1>
+                        <h1>
+                            <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Developer", "Machine Learning" ]'>
+                                <span className="wrap">{text}</span>
+                            </span>
+                        </h1>
                         <p>
                             I am currently pursuing a Bachelor's with Honors in Computer Science at the Singapore Institute of Technology, 
                             as part of a joint degree program with the University of Glasgow. My passion for technology and problem-solving 
@@ -62,10 +69,10 @@ export const Banner = () => {
                         <p>
                             This portfolio showcases some of my work, highlighting my dedication to learning and growing as a computer scientist.
                         </p>
-                        <button onClick={() => console.log('Contact me')} >Let's Connect<ArrowRightCircle size={25} /></button>
+                        <button onClick={handleContactClick}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                 </Row>
             </Container>
         </section>
-    )
-}
+    );
+};
