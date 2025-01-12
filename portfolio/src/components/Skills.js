@@ -1,6 +1,15 @@
-import { Carousel } from "react-multi-carousel";
+import Carousel from "react-multi-carousel";
 import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
+import js from "../assets/img/js.svg";
+import html from "../assets/img/html.svg";
+import java from "../assets/img/java.svg";
+import python from "../assets/img/python.svg";
+import react from "../assets/img/react.svg";
+import tf from "../assets/img/tensorflow.svg";
+import c from "../assets/img/c.svg";
+import django from "../assets/img/django.svg";
+import laravel from "../assets/img/laravel.svg";
 
 export const Skills = () => {
     const responsive = {
@@ -11,11 +20,11 @@ export const Skills = () => {
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 5
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 2
+          items: 3
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
@@ -23,16 +32,42 @@ export const Skills = () => {
         }
     };
     return (
+        
         <section className="skills" id="skills">
             <Container>
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>
-                                Skills
-                            </h2>
-                            <p></p>
-                            <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000} className="skill-slider">
+                            <h2>Skills</h2>
+                            <p>I have experience in using the following languages and frameworks</p>
+                            <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={1500} className="skill-slider">
+                                <div className="item">    
+                                    <img src={js} alt="JavaScript" />      
+                                </div>
+                                <div className="item">  
+                                    <img src={python} alt="Python" />      
+                                </div>
+                                <div className="item">
+                                    <img src={tf} alt="TensorFlow" />
+                                </div>
+                                <div className="item"> 
+                                    <img src={html} alt="HTML" />         
+                                </div>
+                                <div className="item">  
+                                    <img src={java} alt="Java" />        
+                                </div>
+                                <div className="item">
+                                    <img src={laravel} alt="Laravel" />
+                                </div>
+                                <div className="item">
+                                    <img src={django} alt="Django" />
+                                </div>
+                                <div className="item">
+                                    <img src={react} alt="React" />
+                                </div>
+                                <div className="item">
+                                    <img src={c} alt="C" />
+                                </div>
                             </Carousel>
                         </div>
                     </Col>
