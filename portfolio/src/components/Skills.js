@@ -32,14 +32,12 @@ export const Skills = () => {
         }
     };
     return (
-        
         <section className="skills" id="skills">
-            <Container>
+            <div>
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>Skills</h2>
-                            <p>I have experience in using the following languages and frameworks</p>
+                            <h1>Skills</h1>
                             <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={1500} className="skill-slider">
                                 <div className="item">    
                                     <img src={js} alt="JavaScript" />      
@@ -72,7 +70,7 @@ export const Skills = () => {
                         </div>
                     </Col>
                 </Row>
-            </Container>
+            </div>
         </section>
     )
 }

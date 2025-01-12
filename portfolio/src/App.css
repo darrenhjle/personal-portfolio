@@ -275,18 +275,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Skills */
 
 .skill {
-  padding: 0 0 50px 0;
+  padding: 0 ;
   position: relative;
 }
 .skill-bx {
   background: #151515;
-  border-radius: 90px;
+  border-radius: 50px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
 .skill h2 {
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: 700;
 }
 .skill p {
@@ -305,6 +305,96 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   margin: 0 auto 15px auto;
 }
+
+/* Project */
+
+.projects {
+  padding: 100px 0;
+  background-color: #121212;
+  color: #fff;
+}
+
+.projects h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 0.8px;
+}
+
+.projects .project-card {
+  background: #151515;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures buttons are always at the bottom */
+  align-items: center; /* Centers content horizontally */
+  width: 100%; /* Ensures cards are responsive */
+  min-height: 350px; /* Adjust this height based on your design */
+  max-height: 350px; /* Keeps all cards the same height */
+  padding: 20px;
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Card shadow */
+  overflow: hidden; /* Ensures no content overflows */
+  background-color: #fff; /* Optional: Card background color */
+}
+
+
+.projects .project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+  max-height: 120px; /* Adjust height for images */
+  object-fit: cover; /* Ensures image fits within the space */
+}
+
+.project-title {
+  font-size: 1.2em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.project-description {
+  flex-grow: 1; /* Allows the description to take up available space */
+  max-height: 80px; /* Limits the description height */
+  overflow: hidden; /* Hides overflowing text */
+  text-overflow: ellipsis; /* Adds ellipsis for trimmed text */
+  white-space: normal; /* Allows text wrapping */
+  text-align: center;
+}
+
+.projects .view-more {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.projects .view-more:hover {
+  color: #121212;
+  background-color: #fff;
+}
+
+.unavailable-message {
+  color: #ff0000; /* Red text for emphasis */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center align the text */
+  margin-top: 10px;
+}
+  
+
 
 
 .App {
