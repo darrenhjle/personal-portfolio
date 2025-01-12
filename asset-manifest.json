@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.fb6d2fd1.css",
-    "main.js": "/personal-portfolio/static/js/main.a064beec.js",
-    "static/js/373.84e6292e.chunk.js": "/personal-portfolio/static/js/373.84e6292e.chunk.js",
+    "main.js": "/personal-portfolio/static/js/main.fb94d80a.js",
+    "static/js/146.66f2bfea.chunk.js": "/personal-portfolio/static/js/146.66f2bfea.chunk.js",
     "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -24,11 +24,11 @@
     "static/media/html.svg": "/personal-portfolio/static/media/html.69274ea277b1ee86ba50abd24b291122.svg",
     "static/media/tensorflow.svg": "/personal-portfolio/static/media/tensorflow.724924b4f12aa12c8f411e90c573f481.svg",
     "main.fb6d2fd1.css.map": "/personal-portfolio/static/css/main.fb6d2fd1.css.map",
-    "main.a064beec.js.map": "/personal-portfolio/static/js/main.a064beec.js.map",
-    "373.84e6292e.chunk.js.map": "/personal-portfolio/static/js/373.84e6292e.chunk.js.map"
+    "main.fb94d80a.js.map": "/personal-portfolio/static/js/main.fb94d80a.js.map",
+    "146.66f2bfea.chunk.js.map": "/personal-portfolio/static/js/146.66f2bfea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb6d2fd1.css",
-    "static/js/main.a064beec.js"
+    "static/js/main.fb94d80a.js"
   ]
 }
