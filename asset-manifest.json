@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.cfd77fe4.css",
+    "main.js": "/portfolio/static/js/main.97ba08f7.js",
+    "static/js/373.84e6292e.chunk.js": "/portfolio/static/js/373.84e6292e.chunk.js",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/laravel.svg": "/portfolio/static/media/laravel.97997b4ecb7fb0b888d54f6d1b048ed6.svg",
+    "static/media/nav-icon3.svg": "/portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/java.svg": "/portfolio/static/media/java.8f44354798ff58d9d7d7f963c57fdda5.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.922b6617b5f8063750f6024fb07be778.svg",
+    "static/media/js.svg": "/portfolio/static/media/js.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/python.svg": "/portfolio/static/media/python.5c5fa0ed4c29ace382cd6fa7af0f9a61.svg",
+    "static/media/c.svg": "/portfolio/static/media/c.b92d3292b06fb82979b977f44ab68c71.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/django.svg": "/portfolio/static/media/django.c1ea8b0c07747ebdd9c4da37f0f46d2a.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.69274ea277b1ee86ba50abd24b291122.svg",
+    "static/media/tensorflow.svg": "/portfolio/static/media/tensorflow.d134800405cb87bd8c207af58dff37cd.svg",
+    "main.cfd77fe4.css.map": "/portfolio/static/css/main.cfd77fe4.css.map",
+    "main.97ba08f7.js.map": "/portfolio/static/js/main.97ba08f7.js.map",
+    "373.84e6292e.chunk.js.map": "/portfolio/static/js/373.84e6292e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfd77fe4.css",
+    "static/js/main.97ba08f7.js"
+  ]
+}
